@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'shareit'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_37EAFA1DEC8B48A9BFA1F5CCDFD83043 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE}}
