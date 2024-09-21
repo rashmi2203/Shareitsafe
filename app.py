@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_flask_secret_key'
 
 # Set up Azure Key Vault
-key_vault_url = "https://<Your-KeyVault-Name>.vault.azure.net/"  # Replace with your Key Vault URL
+key_vault_url = "https://backend1.vault.azure.net/"  # Replace with your Key Vault URL
 credential = DefaultAzureCredential()
 secret_client = SecretClient(vault_url=key_vault_url, credential=credential)
 
